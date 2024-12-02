@@ -30,5 +30,6 @@ The CSV file is structured as follows:
 bedrooms & bathrooms||bedrooms: 1||bathrooms: 1||full bathrooms: 1
 
 
-### Link to images
+Link to images
 https://drive.google.com/drive/folders/1I7FhX47G1_M62_o5N_Suc0QsZsQ7Dqc-?usp=drive_link
+(note: all imgs are named {pd_index}_{num}.jpg) 
