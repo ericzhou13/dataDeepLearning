@@ -1,4 +1,4 @@
-CSV File utilizing a ~ delimiter that stores a pandas dataframe containing data regarding NJ real estate.
+CSV File utilizing a ~ delimiter that stores a pandas dataframe containing data regarding NJ real estate. \n
 File Format
 0,           1,     2,       3,      4, ......... 58,                      59
 photo links, price, address, features ........... zillow link to property, zillow link to initial search (debugging reasons)
