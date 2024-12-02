@@ -1,8 +1,30 @@
-CSV File utilizing a ~ delimiter that stores a pandas dataframe containing data regarding NJ real estate. \n
-File Format
-0,           1,     2,       3,      4, ......... 58,                      59
-photo links, price, address, features ........... zillow link to property, zillow link to initial search (debugging reasons)
+# NJ Real Estate Data CSV
 
-(note that feature columns contain a string representing a several features under a specific category)
-(note that each feature in the string is separated by '||')
-(example of a feature value in the csv. bedrooms & bathrooms||bedrooms: 1||bathrooms: 1||full bathrooms: 1)
+This repository contains a CSV file storing data regarding New Jersey real estate listings. The file is designed for structured analysis and debugging, utilizing a `~` delimiter.
+
+---
+
+## 📂 File Format
+
+The CSV file is structured as follows:
+
+| Column Index | Column Name                  | Description                                                                                                                                          |
+|--------------|------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0            | `photo links`               | Links to images of the property.                                                                                                                     |
+| 1            | `price`                     | Price of the property.                                                                                                                               |
+| 2            | `address`                   | Address of the property.                                                                                                                             |
+| 3 to 58      | `features`                  | Contains strings representing several features under specific categories. Each feature is separated by `||`.                                          |
+| 59           | `zillow link to property`   | URL linking to the specific property on Zillow.                                                                                                      |
+| 60           | `zillow link to initial search` | URL linking to the original search for debugging purposes.                                                                                            |
+
+---
+
+## 📝 Key Notes
+
+### **Features Column**
+- Each feature column contains a string with multiple attributes categorized by a title.
+- Features are separated by `||` for easy parsing.
+
+#### **Example:**
+```plaintext
+bedrooms & bathrooms||bedrooms: 1||bathrooms: 1||full bathrooms: 1
