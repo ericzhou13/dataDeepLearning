@@ -13,7 +13,7 @@ The CSV file is structured as follows:
 | 0            | `photo links`               | Links to images of the property.                                                                                                                     |
 | 1            | `price`                     | Price of the property.                                                                                                                               |
 | 2            | `address`                   | Address of the property.                                                                                                                             |
-| 3 to 58      | `features`                  | Contains strings representing several features under specific categories. Each feature is separated by `||`.                                          |
+| 3 to 58      | `features`                  | Contains strings representing several features under specific categories. Each feature is separated by ||.                                          |
 | 59           | `zillow link to property`   | URL linking to the specific property on Zillow.                                                                                                      |
 | 60           | `zillow link to initial search` | URL linking to the original search for debugging purposes.                                                                                            |
 
